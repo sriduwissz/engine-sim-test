@@ -45,7 +45,7 @@ The UI is extremely minimalistic and there are only a few controls used to inter
 | 1, 2, 3, 4, 5 | Simulation time warp |
 | Tab | Change screen |
 
-### Using the RPM hold
+### Using the RPM hold.
 The RPM hold feature will hold the engine at a specific RPM and also measure the engine's horsepower and torque at that RPM. You can enable RPM hold by pressing the `H` key. **You must then enable the dynomometer** (press the `D` key) in order for the RPM hold to take effect. To change the hold speed, hold the `G` key and scroll with the mouse wheel. The RPM hold will be shown on the `DYNO. SPEED` gauge in the lower left of the screen.
 
 ## Why is the code so sloppy?
@@ -55,13 +55,13 @@ I wrote this to demo in a [YouTube video](https://youtu.be/RKT-sKtR970), not as 
 ## How do I build it? (Ignore this section if you're not a developer!)
 **Note: this project currently only builds on Windows!**
 
-### Step 1 - Clone the repository
+### Step 1 - Clone the repository!
 ```git clone --recurse-submodules https://github.com/ange-yaghi/engine-sim```
 
-### Step 2 - Install CMake
+### Step 2 - Install CMake!
 Install the latest version of CMake [here](https://cmake.org/) if it's not already installed.
 
-### Step 3 - Install Dependencies
+### Step 3 - Install Dependencies!
 You will need to install the following dependencies and CMake will need to be able to locate them (ie. they need to be listed on your PATH):
 
     1. SDL2
